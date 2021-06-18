@@ -1,0 +1,102 @@
+.page-title {
+    text-align: center;
+}
+
+.header-menu {
+    display: flex;
+    background-color: #00ffff57;
+    color: white;
+    height: 80px;
+}
+
+.header-menu p {
+    padding: 13px;
+    cursor: pointer;
+}
+
+.header-menu img {
+    width: 80%;
+    height: 80%;
+}
+
+.header-menu .logo {
+    display: flex;
+    margin-left: 60%
+}
+
+.header-border {
+    background-color: #8080802e;
+    height: 20px;
+}
+
+.login-text {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.register-text {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancel-btn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.login-section {
+    width: 20%;
+    margin: auto;
+}
+
+.register-section {
+    width: 20%;
+    margin: auto;
+}
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #8080802e;
+}
+
+.footer h2 {
+    text-align: center;
+    padding: 40px;
+}

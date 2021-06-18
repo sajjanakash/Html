@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="load()">
+    <h1 class="page-title">Mindtree Portal</h1>
+    <div class="header-menu">
+        <p>Home</p>
+        <p>Register</p>
+        <p>Login</p>
+        <div class="logo">
+            <img src="mindtree-logo-tagline-PNG.png" alt="Avatar" class="avatar">
+        </div>
+    </div>
+    <div class="header-border"></div>
+    <!-- <----------------------Login page start------------------->
+    <h1 id="login-text" class="login-text">Login to a world of oppurtunities!</h1>
+    <div id="login" class="login-section">
+        <form onsubmit="return false" id="loginForm">
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" minlength="8" maxlength="10" required>
+
+                <button id="login-btn">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancel-btn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    <!-- <----------------------Login page end------------------->
+
+    <!-- <----------------------Register page start------------------->
+    <h1 id="register-text" class="register-text">Register to explore amazing carrer oppurtunities</h1>
+    <div id="register" class="register-section">
+        <form action="" method="post" id="registerForm">
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" id="uname" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" id="psw" placeholder="Enter Password" name="psw" minlength="8" maxlength="10" required>
+
+                <label for="eaddress"><b>Email Address</b></label>
+                <input type="email" id="eaddress" placeholder="Enter Email Address" name="eaddress" required>
+
+                <label for="city"><b>City</b></label>
+                <input type="text" id="city" placeholder="Enter City" name="city" required>
+
+                <label for="mnum"><b>Mobile No</b></label>
+                <input type="tel" id="mobileNum" placeholder="Enter Mobile Number" name="mnum"   pattern="^[789]\d{9}$"  required>
+
+                <button type="submit" id="register-btn">Register</button>
+            </div>
+        </form>
+    </div>
+    <!-- <----------------------Register page end------------------->
+    <div class="footer">
+        <h2>A<span>&#169;</span> 2021 Mindtree Limited</h2>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
